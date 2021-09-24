@@ -2,12 +2,15 @@ Qui raccogliamo tutti i files .csv (anagrafiche, dati su popolazione, lat, long,
 
 A questo file verrà aggiunto lo schema dati dei csv caricati nella cartella dati
 
-## I files che contiene questa cartella 
-- bla bla bla
-- bla bla 
+## Cosa contiene questa cartella 
+- coordinate.csv
+- stemmi.csv
+- popolazione.csv
+- comuni.csv
+- main.csv
 
 ## Struttura dei dati
-Di seguito si descirivono gli schemi dati dei files che questa cartella contiene
+Di seguito viene descritta la struttura dei files .csv
 
 ### coordinate.csv
 Nome campo | Descrizione | Formato | Esempio
@@ -15,3 +18,11 @@ Nome campo | Descrizione | Formato | Esempio
 comune_codice_istat | Codice ISTAT del Comune | Numero | 001001
 lat | Latitudine | WGS84 | 45.367055
 long | Longitudine | WGS84 | 7.766918
+
+### stemmi.csv
+
+### popolazione.csv
+
+### comuni.csv
+
+### main.csv
