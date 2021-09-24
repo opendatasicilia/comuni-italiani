@@ -1,4 +1,4 @@
-comune_denominazione,comune_codice_istat,latitudine,longitudine,provincia_denominazione,provincia_sigla,regione_denominazione,regione_codice,stemma
+comune_denominazione,comune_codice_istat,lat,long,provincia_denominazione,provincia_sigla,regione_denominazione,regione_codice,stemma
 Agliè,001001,45.367055,7.766918,Torino,TO,Piemonte,1,https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/img/stemmi_cod_istat/001001.jpg
 Airasca,001002,44.917042,7.484321,Torino,TO,Piemonte,1,https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/img/stemmi_cod_istat/001002.jpg
 Ala di Stura,001003,45.31515,7.305909,Torino,TO,Piemonte,1,https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/img/stemmi_cod_istat/001003.jpg
