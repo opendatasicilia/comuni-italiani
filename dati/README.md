@@ -5,7 +5,7 @@ A questo file verrà aggiunto lo schema dati dei csv caricati nella cartella dat
 ## Cosa contiene questa cartella 
 - coordinate.csv
 - stemmi.csv
-- popolazione.csv
+- popolazione_2021.csv
 - comuni.csv
 - main.csv
 
