@@ -1,0 +1,10 @@
+tipo A
+
+sed 's/"//g' list_rename.csv | while IFS=, read orig new; do mv "$orig" "$new"; done 
+
+
+tipo B
+
+while IFS=, read orig target; do
+    mv "$orig" "$target"
+done < list_rename.csv
