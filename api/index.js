@@ -15,7 +15,7 @@ const getData = (f) => {
 const getComune = async(comune) =>{
     const data = await getData(main)
     let place = data.filter(x => x.comune_codice_istat === comune)
-    return place
+    return place[0]
 }
 
 app.use(cors({ origin: '*' }));
