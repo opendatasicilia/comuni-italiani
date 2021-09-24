@@ -7,7 +7,7 @@
 
 ## **Documentazione:**
 
-**Tutti i Comuni**
+**Tutti i Comuni**  
 Restituisce un array di oggetti in formato JSON con tutti i dati disponibili.
 
 - **URL**
@@ -18,7 +18,7 @@ Restituisce un array di oggetti in formato JSON con tutti i dati disponibili.
 
 ---
 
-**Singolo Comune per codice ISTAT**
+**Singolo Comune per codice ISTAT**  
 Restituisce un oggetto in formato JSON con i dati relativi al Comune desiderato.
 
 - **URL**
