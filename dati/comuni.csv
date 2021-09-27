@@ -1,4 +1,4 @@
-comune_denominazione,comune_codice_istat,provincia_denominazione,provincia_sigla,regione_denominazione,regione_codice
+comune,pro_com_t,den_prov,sigla,den_reg,cod_reg
 Agliè,001001,Torino,TO,Piemonte,1
 Airasca,001002,Torino,TO,Piemonte,1
 Ala di Stura,001003,Torino,TO,Piemonte,1
