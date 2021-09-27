@@ -1,14 +1,14 @@
 ## Cosa contiene questa cartella 
-- coordinate.csv
-- stemmi.csv
-- popolazione_2021.csv
-- comuni.csv
-- sito_web.csv
-- pec.csv
-- codice_ficale.csv
-- cap.csv
-- wikipedia.csv
-- main.csv
+- `coordinate.csv` ([file](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/coordinate.csv) | [schema dati](https://github.com/opendatasicilia/comuni-italiani/blob/main/dati/README.md#coordinatecsv))
+- `stemmi.csv` ([file](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/stemmi.csv) | [schema dati](https://github.com/opendatasicilia/comuni-italiani/blob/main/dati/README.md#stemmicsv))
+- `popolazione_2021.csv` ([file](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/popolazione_2021.csv) | [schema dati](https://github.com/opendatasicilia/comuni-italiani/blob/main/dati/README.md#popolazione_2021csv))
+- `comuni.csv` ([file](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/comuni.csv) | [schema dati](https://github.com/opendatasicilia/comuni-italiani/blob/main/dati/README.md#comunicsv))
+- `sito_web.csv` ([file](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/sito_web.csv) | [schema dati](https://github.com/opendatasicilia/comuni-italiani/blob/main/dati/README.md#sito_webcsv))
+- `pec.csv` ([file](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/pec.csv) | [schema dati](https://github.com/opendatasicilia/comuni-italiani/blob/main/dati/README.md#peccsv))
+- `codice_ficale.csv` ([file](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/codice_fiscale.csv) | [schema dati](https://github.com/opendatasicilia/comuni-italiani/blob/main/dati/README.md#codice_fiscalecsv))
+- `cap.csv` ([file](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/cap.csv) | [schema dati](https://github.com/opendatasicilia/comuni-italiani/blob/main/dati/README.md#capcsv))
+- `wikipedia.csv` ([file](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/wikipedia.csv) | [schema dati](https://github.com/opendatasicilia/comuni-italiani/blob/main/dati/README.md#wikipediacsv))
+- `main.csv` ([file](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/main.csv) | [schema dati](https://github.com/opendatasicilia/comuni-italiani/blob/main/dati/README.md#maincsv))
 
 ## Struttura dei dati
 Di seguito viene descritta la struttura dei files .csv
