@@ -16,20 +16,20 @@ Di seguito viene descritta la struttura dei files .csv
 ### coordinate.csv
 Nome campo | Descrizione | Formato | Esempio
 -- | -- | -- | --
-pro_com_t | Codice ISTAT del Comune (pro_com_t) | Numero | 001001
+pro_com_t | Codice ISTAT del Comune | Numero | 001001
 lat | Latitudine | WGS84 | 45.367055
 long | Longitudine | WGS84 | 7.766918
 
 ### stemmi.csv
 Nome campo | Descrizione | Formato | Esempio
 -- | -- | -- | --
-pro_com_t | Codice ISTAT del Comune (pro_com_t) | Numero | 001001
+pro_com_t | Codice ISTAT del Comune | Numero | 001001
 stemma | Link all'immagine dello stemma del comune | Testo | https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/img/stemmi_cod_istat/001001.jpg
 
 ### popolazione_2021.csv
 Nome campo | Descrizione | Formato | Esempio
 -- | -- | -- | --
-pro_com_t | Codice ISTAT del Comune (pro_com_t) | Numero | 001001
+pro_com_t | Codice ISTAT del Comune | Numero | 001001
 popolazione | Popolazione | Numero | 2548
 
 ### comuni.csv
