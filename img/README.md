@@ -1,1 +1,1 @@
-Qui raccogliamo le immagini e inseriamo la sottocartella per gli stemmi
+In questa cartella si raccolgono gli stemmi di tutti i comuni italiani.
