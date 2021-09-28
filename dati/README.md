@@ -17,7 +17,7 @@
 - Stemmi: [araldicacivica.it](https://www.araldicacivica.it/) e [Wikipedia Italia](https://it.wikipedia.org/wiki/Pagina_principale/)
 
 ## Struttura dei dati
-Di seguito viene descritta la struttura dei files .csv
+Di seguito viene descritta la struttura dei file .csv
 
 ### [coordinate.csv](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/coordinate.csv)
 Nome campo | Descrizione | Formato | Esempio
