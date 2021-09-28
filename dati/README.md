@@ -36,7 +36,7 @@ stemma | Link all'immagine dello stemma del comune | Testo | https://raw.githubu
 Nome campo | Descrizione | Formato | Esempio
 -- | -- | -- | --
 pro_com_t | Codice ISTAT del Comune | Numero | 001001
-popolazione | Popolazione | Numero | 2548
+pop_res_21 | Popolazione | Numero | 2548
 
 ### [comuni.csv](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/comuni.csv)
 Nome campo | Descrizione | Formato | Esempio
