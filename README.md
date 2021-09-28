@@ -3,7 +3,7 @@ In questo repo si raccolgono file relativi a tutti i comuni italiani (stemmi, da
 
 ## Cosa contiene questo repo
 - API
-- Files .csv
+- File .csv
 - Stemmi dei comuni italiani
 
 ## Schema dati
