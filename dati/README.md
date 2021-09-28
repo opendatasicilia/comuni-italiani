@@ -11,6 +11,11 @@
 - `mail.csv`([file](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/mail.csv) | [schema dati](https://github.com/opendatasicilia/comuni-italiani/blob/main/dati/README.md#mailcsv))
 - `main.csv` ([file](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/main.csv) | [schema dati](https://github.com/opendatasicilia/comuni-italiani/blob/main/dati/README.md#maincsv))
 
+## Fonti
+Amministrazioni:[ indicepa.gov.it](https://indicepa.gov.it/ipa-dati/dataset/amministrazioni)
+Popolazione: [Istat](https://www.istat.it/)
+Stemmi: [araldicacivica.it](https://www.araldicacivica.it/) e [Wikipedia Italia](https://it.wikipedia.org/wiki/Pagina_principale/)
+
 ## Struttura dei dati
 Di seguito viene descritta la struttura dei files .csv
 
