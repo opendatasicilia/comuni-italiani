@@ -13,7 +13,7 @@ La struttura dei files è descritta nel dettaglio [qui](https://github.com/opend
 - Umap | [Comuni Italiani | 2021](http://u.osmfr.org/m/660870/)
 
 ## Data Browser
-- [https://infocomuni.eu/](https://https://infocomuni.eu/)
+- [https://infocomuni.eu/](https://infocomuni.eu/)
 
 ## Credit
 - Comunità Open Data Sicilia
