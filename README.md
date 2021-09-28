@@ -12,6 +12,9 @@ La struttura dei files è descritta nel dettaglio [qui](https://github.com/opend
 ## Mappa
 - Umap | [Comuni Italiani | 2021](http://u.osmfr.org/m/660870/)
 
+## Data Browser
+- [https://infocomuni.eu/](https://https://infocomuni.eu/)
+
 ## Credit
 - Comunità Open Data Sicilia
 - Si ringrazia https://www.araldicacivica.it/ per averci permesso di utilizzare gli stemmi da loro raccolti e organizzati.
