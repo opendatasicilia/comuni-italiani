@@ -8,3 +8,6 @@ In questo repo si raccolgono files relativi a tutti i comuni italiani (stemmi, d
 ## Credit
 - Comunità Open Data Sicilia
 - Si ringrazia https://www.araldicacivica.it/ per averci permesso di utilizzare gli stemmi da loro raccolti e organizzati.
+
+## Mappa
+- Umap | [Comuni Italiani | 2021](http://u.osmfr.org/m/660870/)
