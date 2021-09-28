@@ -1,5 +1,5 @@
 # comuni-italiani
-In questo repo si raccolgono files relativi a tutti i comuni italiani (stemmi, dati popolazione, codici istat, lat, long). Dato che files di questo tipo possono tornare sempre utili, li rendiamo indipendenti dal repo di InformaCOVID.
+In questo repo si raccolgono file relativi a tutti i comuni italiani (stemmi, dati popolazione, codici istat, lat, long). Dato che file di questo tipo possono tornare sempre utili, li rendiamo indipendenti dal repo di InformaCOVID.
 
 ## Cosa contiene questo repo
 - API
@@ -7,7 +7,7 @@ In questo repo si raccolgono files relativi a tutti i comuni italiani (stemmi, d
 - Stemmi dei comuni italiani
 
 ## Schema dati
-La struttura dei files è descritta nel dettaglio [qui](https://github.com/opendatasicilia/comuni-italiani/blob/main/dati/README.md)
+La struttura dei file è descritta nel dettaglio [qui](https://github.com/opendatasicilia/comuni-italiani/blob/main/dati/README.md)
 
 ## Mappa
 - Umap | [Comuni Italiani | 2021](http://u.osmfr.org/m/660870/)
