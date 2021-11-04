@@ -90,6 +90,8 @@ wikidata | Link alla pagina wikidata del Comune | Testo | http://www.wikidata.or
 
 ### [ISTAT_popolazione_2021.csv](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/ISTAT_popolazione_2021.csv)
 
+Popolazione residente per Comune di Italia, aggiornata a gennaio 2021. Fonte: [Istat](http://demo.istat.it/pop2021/dati/comuni.zip).
+
 Nome campo | Descrizione | Formato | Esempio
 -- | -- | -- | --
 Codice comune | Codice ISTAT del Comune | testo | 001001
