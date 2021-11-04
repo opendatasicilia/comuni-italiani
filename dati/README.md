@@ -11,10 +11,13 @@
 - `wikidata.csv` ([file](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/wikidata.csv) | [schema dati](https://github.com/opendatasicilia/comuni-italiani/blob/main/dati/README.md#wikidatacsv)) 
 - `mail.csv`([file](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/mail.csv) | [schema dati](https://github.com/opendatasicilia/comuni-italiani/blob/main/dati/README.md#mailcsv))
 - `main.csv` ([file](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/main.csv) | [schema dati](https://github.com/opendatasicilia/comuni-italiani/blob/main/dati/README.md#maincsv))
+- `ISTAT_popolazione_2021.csv` ([file](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/ISTAT_popolazione_2021.csv) | [schema dati](https://github.com/opendatasicilia/comuni-italiani/blob/main/dati/README.md#ISTAT_popolazione_2021))
 
 ## Fonti
 - Amministrazioni:[ indicepa.gov.it](https://indicepa.gov.it/ipa-dati/dataset/amministrazioni)
-- Popolazione: [Istat](https://www.istat.it/)
+- Popolazione: 
+  - [Istat](https://www.istat.it/)
+  - [Istat](http://demo.istat.it/pop2021/dati/comuni.zip)
 - Stemmi: [araldicacivica.it](https://www.araldicacivica.it/) e [Wikipedia Italia](https://it.wikipedia.org/wiki/Pagina_principale/)
 
 ## Struttura dei dati
@@ -84,6 +87,16 @@ Nome campo | Descrizione | Formato | Esempio
 -- | -- | -- | --
 pro_com_t | Codice ISTAT del Comune | Numero | 001001
 wikidata | Link alla pagina wikidata del Comune | Testo | http://www.wikidata.org/entity/Q8971
+
+### [ISTAT_popolazione_2021.csv](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/ISTAT_popolazione_2021.csv)
+
+Nome campo | Descrizione | Formato | Esempio
+-- | -- | -- | --
+Codice comune | Codice ISTAT del Comune | testo | 001001
+<12 | numero di residenti per Comune di età inferiore a 12 anni  | Numero | 122
+>=12 | numero di residenti per Comune con età maggiore o uguale a 12 anni  | Numero | 223
+totale | numero di residenti totale per Comune | Numero | 12
+
 
 ### [mail.csv](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/mail.csv)
 Nome campo | Descrizione | Formato | Esempio
