@@ -8,6 +8,7 @@
 - `codice_ficale.csv` ([file](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/codice_fiscale.csv) | [schema dati](https://github.com/opendatasicilia/comuni-italiani/blob/main/dati/README.md#codice_fiscalecsv))
 - `cap.csv` ([file](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/cap.csv) | [schema dati](https://github.com/opendatasicilia/comuni-italiani/blob/main/dati/README.md#capcsv))
 - `wikipedia.csv` ([file](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/wikipedia.csv) | [schema dati](https://github.com/opendatasicilia/comuni-italiani/blob/main/dati/README.md#wikipediacsv))
+- `wikidata.csv` ([file](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/wikidata.csv) | [schema dati](https://github.com/opendatasicilia/comuni-italiani/blob/main/dati/README.md#wikidatacsv)) 
 - `mail.csv`([file](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/mail.csv) | [schema dati](https://github.com/opendatasicilia/comuni-italiani/blob/main/dati/README.md#mailcsv))
 - `main.csv` ([file](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/main.csv) | [schema dati](https://github.com/opendatasicilia/comuni-italiani/blob/main/dati/README.md#maincsv))
 
@@ -77,6 +78,12 @@ Nome campo | Descrizione | Formato | Esempio
 -- | -- | -- | --
 pro_com_t | Codice ISTAT del Comune | Numero | 001001
 wikipedia | Link alla pagina wikipedia del Comune | Testo | https://it.wikipedia.org/wiki/Agliè
+
+### [wikidata.csv](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/wikidata.csv)
+Nome campo | Descrizione | Formato | Esempio
+-- | -- | -- | --
+pro_com_t | Codice ISTAT del Comune | Numero | 001001
+wikidata | Link alla pagina wikidata del Comune | Testo | http://www.wikidata.org/entity/Q8971
 
 ### [mail.csv](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/mail.csv)
 Nome campo | Descrizione | Formato | Esempio
