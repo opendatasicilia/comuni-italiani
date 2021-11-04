@@ -11,7 +11,7 @@
 - `wikidata.csv` ([file](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/wikidata.csv) | [schema dati](https://github.com/opendatasicilia/comuni-italiani/blob/main/dati/README.md#wikidatacsv)) 
 - `mail.csv`([file](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/mail.csv) | [schema dati](https://github.com/opendatasicilia/comuni-italiani/blob/main/dati/README.md#mailcsv))
 - `main.csv` ([file](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/main.csv) | [schema dati](https://github.com/opendatasicilia/comuni-italiani/blob/main/dati/README.md#maincsv))
-- `ISTAT_popolazione_2021.csv` ([file](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/ISTAT_popolazione_2021.csv) | [schema dati](https://github.com/opendatasicilia/comuni-italiani/blob/main/dati/README.md#ISTAT_popolazione_2021))
+- `ISTAT_popolazione_2021.csv` ([file](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/ISTAT_popolazione_2021.csv) | [schema dati](https://github.com/opendatasicilia/comuni-italiani/blob/main/dati/README.md#istat_popolazione_2021csv))
 
 ## Fonti
 - Amministrazioni:[ indicepa.gov.it](https://indicepa.gov.it/ipa-dati/dataset/amministrazioni)
@@ -94,7 +94,7 @@ Nome campo | Descrizione | Formato | Esempio
 -- | -- | -- | --
 Codice comune | Codice ISTAT del Comune | testo | 001001
 <12 | numero di residenti per Comune di età inferiore a 12 anni  | Numero | 122
->=12 | numero di residenti per Comune con età maggiore o uguale a 12 anni  | Numero | 223
+\>=12 | numero di residenti per Comune con età maggiore o uguale a 12 anni  | Numero | 223
 totale | numero di residenti totale per Comune | Numero | 12
 
 
