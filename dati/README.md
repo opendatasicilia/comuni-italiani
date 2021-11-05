@@ -26,27 +26,27 @@ Di seguito viene descritta la struttura dei file .csv
 ### [coordinate.csv](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/coordinate.csv)
 Nome campo | Descrizione | Formato | Esempio
 -- | -- | -- | --
-pro_com_t | Codice ISTAT del Comune | Numero | 001001
+pro_com_t | Codice ISTAT del Comune | Testo | 001001
 lat | Latitudine | WGS84 | 45.367055
 long | Longitudine | WGS84 | 7.766918
 
 ### [stemmi.csv](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/stemmi.csv)
 Nome campo | Descrizione | Formato | Esempio
 -- | -- | -- | --
-pro_com_t | Codice ISTAT del Comune | Numero | 001001
+pro_com_t | Codice ISTAT del Comune | Testo | 001001
 stemma | Link all'immagine dello stemma del comune | Testo | https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/img/stemmi_cod_istat/001001.jpg
 
 ### [popolazione_2021.csv](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/popolazione_2021.csv)
 Nome campo | Descrizione | Formato | Esempio
 -- | -- | -- | --
-pro_com_t | Codice ISTAT del Comune | Numero | 001001
+pro_com_t | Codice ISTAT del Comune | Testo | 001001
 pop_res_21 | Popolazione | Numero | 2548
 
 ### [comuni.csv](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/comuni.csv)
 Nome campo | Descrizione | Formato | Esempio
 -- | -- | -- | --
 comune | Denominazione del comune | Testo | Agliè
-pro_com_t | Codice ISTAT del Comune | Numero | 001001
+pro_com_t | Codice ISTAT del Comune | Testo | 001001
 den_prov | Denominazione della Provincia | Testo | Torino
 sigla | Sigla della Provincia | Testo | TO
 den_reg | Denominazione della Regione | Testo | Piemonte
@@ -55,37 +55,37 @@ cod_reg | Codice ISTAT della regione | Numero | 1
 ### [sito_web.csv](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/sito_web.csv)
 Nome campo | Descrizione | Formato | Esempio
 -- | -- | -- | --
-pro_com_t | Codice ISTAT del Comune | Numero | 001001
+pro_com_t | Codice ISTAT del Comune | Testo | 001001
 sito_web | Sito istituzionale del Comune | Testo | http://comune.aglie.to.it
 
 ### [pec.csv](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/pec.csv)
 Nome campo | Descrizione | Formato | Esempio
 -- | -- | -- | --
-pro_com_t | Codice ISTAT del Comune | Numero | 001001
+pro_com_t | Codice ISTAT del Comune | Testo | 001001
 pec | Indirizzo PEC dell'Ente | Testo | protocollo@pec.comune.aglie.to.it
 
 ### [codice_fiscale.csv](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/codice_fiscale.csv)
 Nome campo | Descrizione | Formato | Esempio
 -- | -- | -- | --
-pro_com_t | Codice ISTAT del Comune | Numero | 001001
+pro_com_t | Codice ISTAT del Comune | Testo | 001001
 cf | Codice fiscale del Comune | Numero | 83501790014
 
 ### [cap.csv](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/cap.csv)
 Nome campo | Descrizione | Formato | Esempio
 -- | -- | -- | --
-pro_com_t | Codice ISTAT del Comune | Numero | 001001
+pro_com_t | Codice ISTAT del Comune | Testo | 001001
 cap | Codice di Avviamento Postale del Comune dell'ente | Numero | 10011
 
 ### [wikipedia.csv](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/wikipedia.csv)
 Nome campo | Descrizione | Formato | Esempio
 -- | -- | -- | --
-pro_com_t | Codice ISTAT del Comune | Numero | 001001
+pro_com_t | Codice ISTAT del Comune | Testo | 001001
 wikipedia | Link alla pagina wikipedia del Comune | Testo | https://it.wikipedia.org/wiki/Agliè
 
 ### [wikidata.csv](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/wikidata.csv)
 Nome campo | Descrizione | Formato | Esempio
 -- | -- | -- | --
-pro_com_t | Codice ISTAT del Comune | Numero | 001001
+pro_com_t | Codice ISTAT del Comune | Testo | 001001
 wikidata | Link alla pagina wikidata del Comune | Testo | http://www.wikidata.org/entity/Q8971
 
 ### [ISTAT_popolazione_2021.csv](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/ISTAT_popolazione_2021.csv)
@@ -94,7 +94,7 @@ Popolazione residente per Comune di Italia, aggiornata a gennaio 2021. Fonte: [I
 
 Nome campo | Descrizione | Formato | Esempio
 -- | -- | -- | --
-Codice comune | Codice ISTAT del Comune | testo | 001001
+Codice comune | Codice ISTAT del Comune | Testo | 001001
 <12 | numero di residenti per Comune di età inferiore a 12 anni  | Numero | 122
 \>=12 | numero di residenti per Comune con età maggiore o uguale a 12 anni  | Numero | 223
 totale | numero di residenti totale per Comune | Numero | 12
@@ -103,14 +103,14 @@ totale | numero di residenti totale per Comune | Numero | 12
 ### [mail.csv](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/mail.csv)
 Nome campo | Descrizione | Formato | Esempio
 -- | -- | -- | --
-pro_com_t | Codice ISTAT del Comune | Numero | 001001
+pro_com_t | Codice ISTAT del Comune | Testo | 001001
 mail | Indirizzo email dell'Ente | testo | protocollo@pec.comune.aglie.to.it
 
 ### [main.csv](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/main.csv)
 Nome campo | Descrizione | Formato | Esempio
 -- | -- | -- | --
 comune | Denominazione del comune | Testo | Agliè
-pro_com_t | Codice ISTAT del Comune | Numero | 001001
+pro_com_t | Codice ISTAT del Comune | Testo | 001001
 lat | Latitudine | WGS84 | 45.367055
 long | Longitudine | WGS84 | 7.766918
 den_prov | Denominazione della Provincia | Testo | Torino
