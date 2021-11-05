@@ -94,7 +94,7 @@ Popolazione residente per Comune di Italia, aggiornata a gennaio 2021. Fonte: [I
 
 Nome campo | Descrizione | Formato | Esempio
 -- | -- | -- | --
-Codice comune | Codice ISTAT del Comune | Testo | 001001
+pro_com_t | Codice ISTAT del Comune | Testo | 001001
 <12 | numero di residenti per Comune di età inferiore a 12 anni  | Numero | 122
 \>=12 | numero di residenti per Comune con età maggiore o uguale a 12 anni  | Numero | 223
 totale | numero di residenti totale per Comune | Numero | 12
