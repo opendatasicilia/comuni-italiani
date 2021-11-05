@@ -24,6 +24,9 @@
 Di seguito viene descritta la struttura dei file .csv
 
 ### [coordinate.csv](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/coordinate.csv)
+
+Il centroide delle coordinate qui indicate si riferisce al Municipio del Comune interessato, e rispetta lo standard `EPSG:4326`
+
 Nome campo | Descrizione | Formato | Esempio
 -- | -- | -- | --
 pro_com_t | Codice ISTAT del Comune | Testo | 001001
