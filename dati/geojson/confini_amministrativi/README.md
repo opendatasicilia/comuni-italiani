@@ -38,7 +38,7 @@ I dati geografici delle sezioni di censimento, mosaicati a livello nazionale, so
 
 ---
 
-# Nuts | Reposytory [OnData](https://github.com/ondata/nuts) 
+# Nuts | Repository [OnData](https://github.com/ondata/nuts) 
 
 La **suddivisione territoriale statistica standard** in Europa (EUROSTAT) è la [**NUTS**](https://www.wikiwand.com/it/Nomenclatura_delle_unit%C3%A0_territoriali_statistiche). In Italia è di particolare interesse in alcuni contesti, come ad esempio quello della **sanità**, per il quale il paese è suddiviso funzionalmente non nelle 20 regioni "classiche", ma nelle 21 zone `NUTS2` (il Trentino-Alto Adige suddiviso nelle due province autonome).
 
