@@ -93,6 +93,17 @@ wikidata | Link alla pagina wikidata del Comune | Testo | http://www.wikidata.or
 
 ### [ISTAT_popolazione_2021.csv](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/ISTAT_popolazione_2021.csv)
 
+Popolazione residente per Comune di Italia, aggiornata a gennaio 2021. Fonte: [Istat](http://demo.istat.it/pop2021/dati/comuni.zip).
+
+Nome campo | Descrizione | Formato | Esempio
+-- | -- | -- | --
+pro_com_t | Codice ISTAT del Comune | Testo | 001001
+<12 | numero di residenti per Comune di età inferiore a 5 anni  | Numero | 122
+\>=12 | numero di residenti per Comune con età maggiore o uguale a 5 anni  | Numero | 223
+totale | numero di residenti totale per Comune | Numero | 12
+
+### [target5.csv](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/target5.csv)
+
 Popolazione residente per Comune di Italia, aggiornata a (?) 2021. Fonte: [Istat](http://demo.istat.it/pop2021/dati/comuni.zip).
 
 Nome campo | Descrizione | Formato | Esempio
@@ -100,17 +111,6 @@ Nome campo | Descrizione | Formato | Esempio
 pro_com_t | Codice ISTAT del Comune | Testo | 001001
 <5 | numero di residenti per Comune di età inferiore a 5 anni  | Numero | 122
 \>=5 | numero di residenti per Comune con età maggiore o uguale a 5 anni  | Numero | 223
-totale | numero di residenti totale per Comune | Numero | 12
-
-### [target5.csv](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/target5.csv)
-
-Popolazione residente per Comune di Italia, aggiornata a gennaio 2021. Fonte: [Istat](http://demo.istat.it/pop2021/dati/comuni.zip).
-
-Nome campo | Descrizione | Formato | Esempio
--- | -- | -- | --
-pro_com_t | Codice ISTAT del Comune | Testo | 001001
-<12 | numero di residenti per Comune di età inferiore a 12 anni  | Numero | 122
-\>=12 | numero di residenti per Comune con età maggiore o uguale a 12 anni  | Numero | 223
 totale | numero di residenti totale per Comune | Numero | 12
 
 ### [mail.csv](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/mail.csv)
