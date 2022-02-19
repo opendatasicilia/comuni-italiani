@@ -13,7 +13,7 @@ function App() {
   const [isLoading, setIsLoading] = useState(true)
 
   const getComuni = useCallback(async () => {
-    const response = await axios.get(`/comuni`)
+    const response = await axios.get(`https://api.infocomuni.eu/comuni`)
     setData(response.data)
         setIsLoading(false)
     },[])

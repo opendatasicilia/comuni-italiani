@@ -2,12 +2,12 @@ import React, { useState, useEffect, useCallback } from "react";
 import log from '../assets/imgs/opendatasicilia.png'
 import axios from 'axios';
 
-export default function Vax({istat}){
+export default function Comune({istat}){
     const [isLoading,setIsLoading] = useState(true)
     const [data, setData] = useState(null);
 
     const getComune = useCallback(async () => {
-        axios.get(`comuni/${istat}`)
+        axios.get(`https://api.infocomuni.eu/comuni/${istat}`)
             .then((res) => {
                 setData(res.data)
                 setIsLoading(false)
