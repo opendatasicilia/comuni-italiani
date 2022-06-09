@@ -19,6 +19,8 @@
 - Popolazione: 
   - [Istat](https://www.istat.it/)
   - [Istat](http://demo.istat.it/pop2021/dati/comuni.zip)
+- Codici statistici delle unità Amministrative territoriali:
+  - [Istat](https://www.istat.it/it/archivio/6789)
 - Stemmi: [araldicacivica.it](https://www.araldicacivica.it/) e [Wikipedia Italia](https://it.wikipedia.org/wiki/Pagina_principale/)
 
 ## Struttura dei dati
