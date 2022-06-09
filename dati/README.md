@@ -12,7 +12,7 @@
 - `mail.csv`([file](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/mail.csv) | [schema dati](https://github.com/opendatasicilia/comuni-italiani/blob/main/dati/README.md#mailcsv))
 - `main.csv` ([file](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/main.csv) | [schema dati](https://github.com/opendatasicilia/comuni-italiani/blob/main/dati/README.md#maincsv))
 - `ISTAT_popolazione_2021.csv` ([file](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/ISTAT_popolazione_2021.csv) | [schema dati](https://github.com/opendatasicilia/comuni-italiani/blob/main/dati/README.md#istat_popolazione_2021csv))
-
+- `comuni_codici-catastali.csv` ([file](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/comuni_codici-catastali.csv)  | [schema dati](https://github.com/opendatasicilia/comuni-italiani/blob/main/dati/README.mdcomuni_codici-catastalicsv))
 ## Fonti
 - Amministrazioni:[ indicepa.gov.it](https://indicepa.gov.it/ipa-dati/dataset/amministrazioni)
 - Popolazione: 
