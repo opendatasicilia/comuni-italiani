@@ -109,8 +109,8 @@ totale | numero di residenti totale per Comune | Numero | 12
 Nome campo | Descrizione | Formato | Esempio
 -- | -- | -- | --
 pro_com_t | Codice ISTAT del Comune | Testo | 001001
-codice_catastale | Codice Catastale del comune | testo | A074
-comune | Denominazione del comune | testo | Agliè
+codice_catastale | Codice Catastale del comune | Testo | A074
+comune | Denominazione del comune | Testo | Agliè
 
 ### [target5.csv](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/target5.csv)
 
