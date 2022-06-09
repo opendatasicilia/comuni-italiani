@@ -12,7 +12,8 @@
 - `mail.csv`([file](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/mail.csv) | [schema dati](https://github.com/opendatasicilia/comuni-italiani/blob/main/dati/README.md#mailcsv))
 - `main.csv` ([file](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/main.csv) | [schema dati](https://github.com/opendatasicilia/comuni-italiani/blob/main/dati/README.md#maincsv))
 - `ISTAT_popolazione_2021.csv` ([file](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/ISTAT_popolazione_2021.csv) | [schema dati](https://github.com/opendatasicilia/comuni-italiani/blob/main/dati/README.md#istat_popolazione_2021csv))
-- `comuni_codici-catastali.csv` ([file](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/comuni_codici-catastali.csv)  | [schema dati](https://github.com/opendatasicilia/comuni-italiani/blob/main/dati/README.mdcomuni_codici-catastalicsv))
+- `comuni_codici-catastali.csv` ([file](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/comuni_codici-catastali.csv) | [schema dati](https://github.com/opendatasicilia/comuni-italiani/blob/main/dati/README.md#comuni_codici-catastalicsv))
+
 ## Fonti
 - Amministrazioni:[ indicepa.gov.it](https://indicepa.gov.it/ipa-dati/dataset/amministrazioni)
 - Popolazione: 
@@ -101,6 +102,13 @@ pro_com_t | Codice ISTAT del Comune | Testo | 001001
 <12 | numero di residenti per Comune di età inferiore a 5 anni  | Numero | 122
 \>=12 | numero di residenti per Comune con età maggiore o uguale a 5 anni  | Numero | 223
 totale | numero di residenti totale per Comune | Numero | 12
+
+### [comuni_codici-catastali.csv](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/comuni_codici-catastali.csv)
+Nome campo | Descrizione | Formato | Esempio
+-- | -- | -- | --
+pro_com_t | Codice ISTAT del Comune | Testo | 001001
+codice_catastale | Codice Catastale del comune | testo | A074
+comune | Nome del Comune | testo | Agliè
 
 ### [target5.csv](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/target5.csv)
 
