@@ -19,3 +19,6 @@ La struttura dei file è descritta nel dettaglio [qui](https://github.com/openda
 - Comunità Open Data Sicilia
 - Dataset base per le amministrazioni [Agid-iPA](https://indicepa.gov.it/ipa-dati/dataset/amministrazioni)
 - Si ringrazia https://www.araldicacivica.it/ per averci permesso di utilizzare gli stemmi da loro raccolti e organizzati.
+
+## Note 
+I CAP sono stati estratti dal file [amministrazioni.txt](https://indicepa.gov.it/ipa-dati/dataset/amministrazioni) dataset [Agid-iPA](https://indicepa.gov.it/ipa-dati/organization/agid-ipa) disponibile su [Opendata IPA](https://indicepa.gov.it/ipa-dati/)
