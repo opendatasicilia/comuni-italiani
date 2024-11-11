@@ -7,6 +7,9 @@
   "homepage": "https://github.com/opendatasicilia/comuni-italiani/#readme",
   "main": "index.js",
   "license": "CC-BY 3.0",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "csvtojson": "^2.0.10",

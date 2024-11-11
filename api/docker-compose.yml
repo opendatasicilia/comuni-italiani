@@ -1,0 +1,13 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: infocomuni_api
+    ports:
+      - "8888:8888"
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ../dati:/app/dati
+    command: yarn start
