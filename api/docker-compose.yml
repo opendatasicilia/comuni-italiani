@@ -1,0 +1,12 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8888:8888"
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ../dati:/app/dati
+    command: yarn start
