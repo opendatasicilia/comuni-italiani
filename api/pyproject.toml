@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "api.opendatasicilia.it"
+version = "1.0.0"
+description = "API dati relativi ai Comuni Italiani"
+authors = [
+    { name = "@opendatasicilia" }
+]
+dependencies = [
+    "fastapi~=0.115.3",
+    "uvicorn",
+    "redis~=5.2.1",
+    "starlette~=0.41.0",
+    "pydantic~=2.9.2",
+]
+
+[project.urls]
+Homepage = "https://github.com/opendatasicilia/comuni-italiani"
+Documentation = "https://github.com/opendatasicilia/comuni-italiani/#readme"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["*"]
+namespaces = true
+
+[tool.setuptools.package-data]
+"*" = ["dati/*"]
