@@ -12,17 +12,17 @@ services:
     depends_on:
       - redis
     networks:
-      - ${NETWORK_NAME}
+      - infocomuni_network
     environment:
       - PYTHONUNBUFFERED=1
-    command: gunicorn -w 4 -k uvicorn.workers.UvicornWorker src.main:app --bind 0.0.0.0:8888
+    command: uvicorn src.main:app --host 0.0.0.0 --port 8888 --reload
 
   redis:
     image: redis:latest
     container_name: infocomuni_redis
     networks:
-      - ${NETWORK_NAME}
+      - infocomuni_network
 
 networks:
-  ${NETWORK_NAME}:
-    external: true
+  infocomuni_network:
+    driver: bridge
