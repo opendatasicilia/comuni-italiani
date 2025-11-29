@@ -9,19 +9,11 @@ services:
     volumes:
       - ../dati:/app/src/dati
       - ./src:/app/src
-    depends_on:
-      - redis
     networks:
       - ${NETWORK_NAME}
     environment:
       - PYTHONUNBUFFERED=1
-    command: gunicorn -w 4 -k uvicorn.workers.UvicornWorker src.main:app --bind 0.0.0.0:8888
-
-  redis:
-    image: redis:latest
-    container_name: infocomuni_redis
-    networks:
-      - ${NETWORK_NAME}
+    command: gunicorn -w 4 -k uvicorn.workers.UvicornWorker src.main:app --bind 0.0.0.0:8888 --access-logfile - --error-logfile - --log-level info
 
 networks:
   ${NETWORK_NAME}:

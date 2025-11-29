@@ -12,9 +12,9 @@ authors = [
 dependencies = [
     "fastapi~=0.115.3",
     "uvicorn",
-    "redis~=5.2.1",
     "starlette~=0.41.0",
     "pydantic~=2.9.2",
+    "gunicorn",
 ]
 
 [project.urls]

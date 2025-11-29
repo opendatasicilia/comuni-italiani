@@ -1,22 +1,12 @@
-import json
-
-from redis.asyncio import Redis
+from typing import Dict, Any
 
 
 class CacheManager:
-    def __init__(self, redis_host="redis", redis_port=6379):
-        self.redis = self.connect(redis_host, redis_port)
+    def __init__(self):
+        self.data: Dict[str, Any] = {}
 
-    @staticmethod
-    def connect(host, port):
-        try:
-            return Redis(host=host, port=port)
-        except Exception as e:
-            raise ConnectionError(f"Impossibile connettersi a Redis: {e}")
+    def store(self, key: str, value: Any) -> None:
+        self.data[key] = value
 
-    async def store(self, key: str, data):
-        await self.redis.set(key, json.dumps(data))
-
-    async def read(self, key: str):
-        raw = await self.redis.get(key)
-        return json.loads(raw) if raw else None
+    def read(self, key: str) -> Any:
+        return self.data.get(key)

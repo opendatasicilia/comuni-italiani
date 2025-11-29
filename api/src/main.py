@@ -1,12 +1,12 @@
 from contextlib import asynccontextmanager
 from typing import Union, List
 
-from fastapi import FastAPI, HTTPException, Depends
+from fastapi import FastAPI, HTTPException, Depends, Path
 from fastapi.middleware.cors import CORSMiddleware
 from starlette.responses import RedirectResponse
 
 from lib import Loader, CacheManager
-from models import FeatureCollection, Feature, MapParams, Comune, ComuneBase, ComuneRequest
+from models import FeatureCollection, Feature, MapParams, Comune, ComuneBase
 from services import MapService
 
 loader = Loader()
@@ -16,9 +16,9 @@ map_service = MapService(cache)
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    await cache.store("all_comuni", loader.load_mini())
-    await cache.store("all_comuni_full", loader.load_all())
-    await cache.store("maps", loader.load_map())
+    cache.store("all_comuni", loader.load_mini())
+    cache.store("all_comuni_full", loader.load_all())
+    cache.store("maps", loader.load_map())
     yield
 
 
@@ -43,31 +43,24 @@ async def get_comuni():
     Ritorna l'elenco di tutti i comuni con i campi minimi.
     """
     try:
-        data = await cache.read("all_comuni")
-        if not data:
-            filtered = loader.load_mini()
-            await cache.store("all_comuni", filtered)
-            data = filtered
+        data = cache.read("all_comuni")
         return [ComuneBase(**row) for row in data]
-    except HTTPException:
-        raise
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
 
 @app.get("/comuni/{istat}", tags=["Comuni"], response_model=Comune)
-async def get_comune(request: ComuneRequest = Depends()):
+async def get_comune(istat: str = Path(..., min_length=6, max_length=6, description="Codice ISTAT del comune")):
     """
     Ritorna i dati di un comune specifico a partire dal suo codice ISTAT (es: 082053).
     """
     try:
-        data = await cache.read("all_comuni_full")
-        if not data:
-            full = loader.load_all()
-            await cache.store("all_comuni_full", full)
-            data = full
+        if not istat.isdigit():
+            raise HTTPException(status_code=400, detail="Il codice ISTAT non è valido.")
 
-        result = next((c for c in data if c.get("pro_com_t") == request.istat), None)
+        data = cache.read("all_comuni_full")
+        result = next((c for c in data if c.get("pro_com_t") == istat), None)
+
         if not result:
             raise HTTPException(status_code=404, detail="Comune non trovato.")
 

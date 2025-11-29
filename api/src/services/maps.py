@@ -13,7 +13,7 @@ class MapService:
         if not params.comune and not params.provincia:
             raise HTTPException(status_code=422, detail="Devi specificare almeno un comune o una provincia.")
 
-        geojson_data = await self.cache.read("maps")
+        geojson_data = self.cache.read("maps")
         features = geojson_data.get("features", [])
 
         if params.comune:
