@@ -32,3 +32,4 @@ class Comune(ComuneBase):
     sito_web: Optional[str] = None
     wikipedia: Optional[str] = None
     stemma: Optional[str] = None
+    pop_res_21: Optional[str] = None
