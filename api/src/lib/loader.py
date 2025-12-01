@@ -15,14 +15,14 @@ class Loader:
         """Carica la directory dati"""
         primary = Path(__file__).parent.parent / "dati"
         fallback = Path(__file__).parent.parent.parent.parent / "dati"
-        try:
-            if primary.is_dir():
-                return primary
-            raise FileNotFoundError
-        except FileNotFoundError:
-            if fallback.is_dir():
-                return fallback
-            raise FileNotFoundError("Directory 'dati' non trovata.")
+
+        if primary.is_dir() and (primary / "main.csv").exists():
+            return primary
+
+        if fallback.is_dir() and (fallback / "main.csv").exists():
+            return fallback
+
+        raise FileNotFoundError("Directory 'dati' non trovata.")
 
     def get_file_path(self, file_name: str):
         """Ritorna il percorso di un file nella directory dati"""
