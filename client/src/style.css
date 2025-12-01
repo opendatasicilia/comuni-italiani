@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -15,14 +15,19 @@ body {
   justify-content: center;
 }
 
-img.stemma{
+img.stemma {
   margin-top: -250px;
   max-height: 90px;
 }
 
-.comune{
+.comune {
   text-align: center;
 }
-.comune > p{
+.comune > p {
   margin-bottom: 0px;
 }
+
+li.selected {
+  cursor: pointer;
+}
+
