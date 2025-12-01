@@ -39,7 +39,7 @@ class Loader:
             return list(reader)
 
     def load_mini(self):
-        """Ritorna i dati dei comuni filtrati per pro_com_t, comune e sigla"""
+        """Ritorna i dati dei comuni filtrati per pro_com_t, comune, sigla e popolazione"""
 
         def read_and_filter_data(file_path, keys):
             rows = self.read_csv_to_json(file_path)
@@ -48,7 +48,7 @@ class Loader:
                 for row in rows
             ]
 
-        filtered = {"pro_com_t", "comune", "sigla"}
+        filtered = {"pro_com_t", "comune", "sigla", "pop_res_21"}
         main_data = read_and_filter_data(self.main_file, filtered)
         pop_data = read_and_filter_data(self.pop_file, filtered)
 

@@ -17,6 +17,7 @@ class ComuneBase(BaseModel):
     pro_com_t: str
     comune: str
     sigla: str
+    pop_res_21: Optional[str] = None
 
 
 class Comune(ComuneBase):

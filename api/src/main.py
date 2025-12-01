@@ -1,5 +1,5 @@
 from contextlib import asynccontextmanager
-from typing import Union, List
+from typing import Optional, Union, List
 
 from fastapi import FastAPI, HTTPException, Depends, Path
 from fastapi.middleware.cors import CORSMiddleware
@@ -38,12 +38,23 @@ async def home():
 
 
 @app.get("/comuni", tags=["Comuni"], response_model=List[ComuneBase])
-async def get_comuni():
+async def get_comuni(q: Optional[str] = None):
     """
-    Ritorna l'elenco di tutti i comuni con i campi minimi.
+    Ritorna l'elenco dei comuni. Se 'q' è fornito, filtra per nome.
     """
     try:
         data = cache.read("all_comuni")
+
+        if q:
+            query = q.lower().strip()
+            data = sorted(
+                (row for row in data if query in row.get("comune", "").lower()),
+                key=lambda x: (
+                    not x.get("comune", "").lower().startswith(query),
+                    not any(w.startswith(query) for w in x.get("comune", "").lower().split())
+                )
+            )
+
         return [ComuneBase(**row) for row in data]
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
