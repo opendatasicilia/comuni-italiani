@@ -42,3 +42,8 @@ Restituisce un oggetto in formato JSON con i dati relativi al Comune desiderato.
     "stemma": "https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/img/stemmi_cod_istat/086019.png"
   }
   ```
+
+- ** Tests:**
+  ```bash
+    pytest tests/test_data_integrity.py::TestDatasetStats -v -s
+  ```
